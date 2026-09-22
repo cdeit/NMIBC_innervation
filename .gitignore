@@ -1,0 +1,32 @@
+# Local sessions, editors and generated outputs
+.DS_Store
+*.swp
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+Rplots.pdf
+.r_tmp.*/
+results/
+IGNORE/
+release/
+*.zip
+.git.ignore
+
+# Study data are supplied separately; retain input instructions/templates.
+data/*
+!data/README.md
+!data/metadata/
+data/metadata/*
+!data/metadata/single_cell_gene_annotations_template.tsv
+!data/metadata/spatial/
+data/metadata/spatial/*
+!data/metadata/spatial/goal173.txt
+data/metadata/spatial/goal173.txt
+
+# Current reproduction instructions; historical audit notes stay local.
+docs/*
+!docs/REPRODUCIBILITY.md
+!docs/SINGLE_CELL_HEATMAPS.md
+!docs/SUPPLEMENTARY_TABLE_INPUTS.md
+!docs/spatial/
