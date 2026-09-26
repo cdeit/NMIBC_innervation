@@ -12,6 +12,7 @@ IGNORE/
 release/
 *.zip
 .git.ignore
+docs/
 
 # Study data are supplied separately; retain input instructions/templates.
 data/*
